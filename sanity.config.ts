@@ -12,7 +12,7 @@ const apiVersion = process.env.NEXT_PUBLIC_PROJECT_API_VERSION!
 const config = defineConfig({
   name: "default",
   title: "First Sanity Project",
-  basePath: "/studio",
+  basePath: "/admin",
   projectId,
   dataset,
   apiVersion,
